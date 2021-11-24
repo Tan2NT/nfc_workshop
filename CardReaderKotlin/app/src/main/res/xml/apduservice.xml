@@ -1,0 +1,10 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/servicedesc"
+    android:requireDeviceUnlock="false">
+    <aid-group android:description="@string/aiddescription"
+        android:category="other">
+        <aid-filter android:name="A0000000031010"/>
+        <!-- Indicate that the service will only
+        handle the request to the aid VISA DEBIT = A0000000031010-->
+    </aid-group>
+</host-apdu-service>

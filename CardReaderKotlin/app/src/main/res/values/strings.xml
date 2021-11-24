@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CardReader</string>
+    <string name="servicedesc">Host Card Emulator Service</string>
+    <string name="aiddescription">Sample AID for testing</string>
+    <string name="switch_to_card_simulator_mode">Switch to Card Simulator mode</string>
+    <string name="switch_to_card_reader_mode">Switch to Card Reader mode</string>
+    <string name="card_reader_mode_hint">Card Reader mode: please put the NFC card near the back of the phone</string>
+    <string name="card_emulator_mode_hint">Card Emulator mode: please put this phone back near on the back of the Card Reader</string>
+</resources>

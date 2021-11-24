@@ -3,6 +3,9 @@ https://epxx.co/artigos/nfc_en.html
 https://cdn.rohde-schwarz.com/pws/dl_downloads/dl_application/application_notes/1ma182/1MA182_5E_NFC_WHITE_PAPER.pdf
 https://www.shopnfc.com/en/content/9-what-is-nfc
 
+--------- nfc tags ---------
+https://www.eftlab.com/knowledge-base/145-emv-nfc-tags/
+
 ------------ Security 
 https://www.thalesgroup.com/en/markets/digital-identity-and-security/banking-payment/cards/contactless/how-it-works
 https://ldapwiki.com/wiki/Secure%20Element

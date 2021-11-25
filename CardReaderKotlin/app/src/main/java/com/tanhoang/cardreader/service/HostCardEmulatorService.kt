@@ -22,9 +22,9 @@ class HostCardEmulatorService: HostApduService() {
             return TypeConvertor.hexStringToByteArray(STATUS_FAILED)
         }
 
-        val commandApduStr = TypeConvertor.toHex(commandApdu)
+        val commandApduStr = TypeConvertor.toHexString(commandApdu)
 
-        Log.d(TAG, "HostCardEmulatorService processCommandApdu: ${TypeConvertor.toHex(commandApdu)}")
+        Log.d(TAG, "HostCardEmulatorService processCommandApdu: ${TypeConvertor.toHexString(commandApdu)}")
 
         val apduKey = APDUUtil.findAPDUKey(commandApduStr)
         apduKey?.let { key ->

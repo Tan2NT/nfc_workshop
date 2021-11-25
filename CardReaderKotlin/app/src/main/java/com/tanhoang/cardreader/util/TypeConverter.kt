@@ -3,13 +3,13 @@ package com.tanhoang.cardreader.util
 class TypeConvertor {
     companion object {
         private val HEX_CHARS = "0123456789ABCDEF"
-        fun hexStringToByteArray(data: String) : ByteArray {
+        fun hexStringToByteArray(data: String): ByteArray {
 
             val result = ByteArray(data.length / 2)
 
             for (i in 0 until data.length step 2) {
-                val firstIndex = HEX_CHARS.indexOf(data[i]);
-                val secondIndex = HEX_CHARS.indexOf(data[i + 1]);
+                val firstIndex = HEX_CHARS.indexOf(data[i])
+                val secondIndex = HEX_CHARS.indexOf(data[i + 1])
 
                 val octet = firstIndex.shl(4).or(secondIndex)
                 result.set(i.shr(1), octet.toByte())
@@ -19,7 +19,7 @@ class TypeConvertor {
         }
 
         private val HEX_CHARS_ARRAY = "0123456789ABCDEF".toCharArray()
-        fun toHex(byteArray: ByteArray) : String {
+        fun toHexString(byteArray: ByteArray): String {
             val result = StringBuffer()
 
             byteArray.forEach {

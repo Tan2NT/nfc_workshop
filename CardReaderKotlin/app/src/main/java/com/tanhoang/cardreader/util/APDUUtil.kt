@@ -10,7 +10,7 @@ class APDUUtil {
 
         fun findAPDUKey(apduCommandString: String): String? {
             for ((key, command) in apduCommandMap) {
-                if(command.equals(apduCommandString, true))
+                if (command.equals(apduCommandString, true))
                     return key
             }
             return null
